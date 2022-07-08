@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="AssimpPixel.hlsl">
+      <Filter>ソース ファイル\BlackBox</Filter>
+    </FxCompile>
+    <FxCompile Include="AssimpVertex.hlsl">
+      <Filter>ソース ファイル\BlackBox</Filter>
+    </FxCompile>
+    <FxCompile Include="Pixel2D.hlsl">
+      <Filter>ソース ファイル\BlackBox</Filter>
+    </FxCompile>
+    <FxCompile Include="Pixel.hlsl">
+      <Filter>ソース ファイル\BlackBox</Filter>
+    </FxCompile>
+    <FxCompile Include="Vertex.hlsl">
+      <Filter>ソース ファイル\BlackBox</Filter>
+    </FxCompile>
+    <FxCompile Include="Vertex2D.hlsl">
+      <Filter>ソース ファイル\BlackBox</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssimpModel.cpp">
+      <Filter>ソース ファイル\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="debugproc.cpp">
+      <Filter>ソース ファイル\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>ソース ファイル\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon.cpp">
+      <Filter>ソース ファイル\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>ソース ファイル\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>ソース ファイル\BlackBox</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneGame.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneTitle.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneClear.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="Moji.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="HS_data.cpp">
+      <Filter>ソース ファイル\HS</Filter>
+    </ClCompile>
+    <ClCompile Include="HS_Gametext1.cpp">
+      <Filter>ソース ファイル\HS</Filter>
+    </ClCompile>
+    <ClCompile Include="HS_effect.cpp">
+      <Filter>ソース ファイル\HS</Filter>
+    </ClCompile>
+    <ClCompile Include="HS_DXmodel.cpp">
+      <Filter>ソース ファイル\HS</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneMiniGame.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneMenu.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneConfig.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneBattle.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Text.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DDrawMng.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DText.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="D2DRenderTargetsAndDWrite.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleText.cpp">
+      <Filter>ソース ファイル\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="billboard.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniGametext.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="monstertext.cpp">
+      <Filter>ソース ファイル\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="gauge.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+    <ClCompile Include="UserTime.cpp">
+      <Filter>ソース ファイル\main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AssimpModel.h">
+      <Filter>ヘッダー ファイル\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="debugproc.h">
+      <Filter>ヘッダー ファイル\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>ヘッダー ファイル\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>ヘッダー ファイル\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>ヘッダー ファイル\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>ヘッダー ファイル\BlackBox</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneClear.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneGame.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneTitle.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="CPUdata.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Moji.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="HS_data.h">
+      <Filter>ヘッダー ファイル\HS</Filter>
+    </ClInclude>
+    <ClInclude Include="HS_Gametext1.h">
+      <Filter>ヘッダー ファイル\HS</Filter>
+    </ClInclude>
+    <ClInclude Include="HS_effect.h">
+      <Filter>ヘッダー ファイル\HS</Filter>
+    </ClInclude>
+    <ClInclude Include="HS_DXmodel.h">
+      <Filter>ヘッダー ファイル\HS</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneMiniGame.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneMenu.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneConfig.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneBattle.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Text.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DText.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleText.h">
+      <Filter>ヘッダー ファイル\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DRenderTargetsAndDWrite.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="D2DDrawMng.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル\other</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGametext.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="billboard.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="monstertext.h">
+      <Filter>ヘッダー ファイル\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="UserTime.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="gauge.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>ヘッダー ファイル\main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{fd4ab488-3fcf-4ada-8187-66d0c9450a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{e427dc81-32e6-4cca-b23c-3d2c234ca470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{be97024f-e35f-4254-89ee-9793885357f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\BlackBox">
+      <UniqueIdentifier>{8d9815ed-5716-4263-bee6-e69fea01694b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\BlackBox">
+      <UniqueIdentifier>{537acf28-6647-4e36-88ba-50244a905e5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene">
+      <UniqueIdentifier>{9e80f3a2-27ca-4a13-ab39-7a35fff25ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\other">
+      <UniqueIdentifier>{fd9e37b1-1781-4693-879c-ce811ff3a8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene">
+      <UniqueIdentifier>{00d86115-97c3-4078-84ad-a69623b60fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\other">
+      <UniqueIdentifier>{870863b1-e464-415e-a14c-500599e85961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\HS">
+      <UniqueIdentifier>{326ecc84-ccbd-4ad4-b40d-c00beb2e7468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\HS">
+      <UniqueIdentifier>{7bf4c688-e0da-491e-9271-741ad1221a0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Title">
+      <UniqueIdentifier>{8056eff3-d665-4852-9c82-e98a5387e24a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Title">
+      <UniqueIdentifier>{a67b3997-ec8a-4e4e-bef8-15fca428c37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Game">
+      <UniqueIdentifier>{7c8690cc-0506-48ce-893c-e598df768e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{e07afff3-9e8c-416b-bdc8-2820cee55cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\main">
+      <UniqueIdentifier>{eddbd729-e592-473f-9c65-5d8f61167640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\main">
+      <UniqueIdentifier>{9d9004d8-b2ce-4ce2-9a04-7d5bb6e6d41b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\directx.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX11Game.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

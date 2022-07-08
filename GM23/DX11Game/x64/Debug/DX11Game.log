@@ -1,0 +1,5 @@
+﻿  billboard.cpp
+c:\hal\2年\gm23\gm23\dx11game\billboard.cpp(137): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\hal\2年\gm23\gm23\dx11game\billboard.cpp(138): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\hal\2年\gm23\gm23\dx11game\billboard.cpp(139): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  DX11Game.vcxproj -> C:\HAL\2年\GM23\GM23\DX11Game\OthelloD.exe
